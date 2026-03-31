@@ -17,12 +17,3 @@ celsius = float(input("Digite a temperatura em Celsius: ")) fahrenheit = (celsiu
 letra g)
 
 horas = float(input("Digite as horas trabalhadas: ")) valor_hora = float(input("Digite o valor por hora: ")) salario = horas * valor_hora print("Salário total:", salario)
-
-
-
-
-num1 = int(input("Digite um número: "))
-num2 = int(input("Digite outro número: "))
-
-soma = num1 + num2
-print("A soma é:", soma)
