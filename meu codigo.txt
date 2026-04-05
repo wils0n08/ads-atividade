@@ -89,3 +89,158 @@ if 0 <= n <= 10:
     print("Dentro do intervalo")
 else:
     print("Fora do intervalo")
+# 11. Par positivo, par negativo ou ímpar
+n = int(input("Digite um número: "))
+if n % 2 == 0 and n > 0:
+    print("Par positivo")
+elif n % 2 == 0 and n < 0:
+    print("Par negativo")
+else:
+    print("Ímpar")
+
+
+12. Soma e maior ou iguais
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+print("Soma:", a + b)
+
+if a > b:
+    print("Maior:", a)
+elif b > a:
+    print("Maior:", b)
+else:
+    print("São iguais")
+
+
+ 13. Maior que 100 → metade; senão → dobro
+n = float(input("Digite um número: "))
+if n > 100:
+    print("Metade:", n / 2)
+else:
+    print("Dobro:", n * 2)
+
+
+ 14. Múltiplo de 3
+valor = int(input("Digite um valor: "))
+if valor % 3 == 0:
+    print("Múltiplo de 3")
+else:
+    print("Não é múltiplo")
+
+
+ 15. Entre 10 e 20
+n = float(input("Digite um número: "))
+if 10 <= n <= 20:
+    print("Dentro")
+else:
+    print("Fora")
+
+
+ 16. Tipo e quadrado se numérico
+valor = input("Digite algo: ")
+print("Tipo:", type(valor))
+
+try:
+    num = float(valor)
+    print("Quadrado:", num ** 2)
+except:
+    print("Não é numérico")
+
+
+ 17. Classificação por idade
+idade = int(input("Digite a idade: "))
+if idade < 18:
+    print("Menor de idade")
+elif idade <= 59:
+    print("Adulto")
+else:
+    print("Idoso")
+
+
+ 18. Classificação completa
+n = int(input("Digite um número: "))
+if n == 0:
+    print("Neutro")
+elif n % 2 == 0 and n > 0:
+    print("Par positivo")
+elif n % 2 == 0 and n < 0:
+    print("Par negativo")
+elif n % 2 != 0 and n > 0:
+    print("Ímpar positivo")
+else:
+    print("Ímpar negativo")
+
+
+ 19. Iguais ou diferentes + diferença
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+if a == b:
+    print("São iguais")
+else:
+    print("São diferentes")
+    print("Diferença:", abs(a - b))
+
+
+ 20. Intervalo 0 a 100
+valor = float(input("Digite um valor: "))
+if 0 <= valor <= 100:
+    print("Dentro do intervalo")
+else:
+    print("Fora do intervalo. Valor:", valor)
+ 21. Múltiplo de 2 e 3 sendo positivo
+n = int(input("Digite um número inteiro: "))
+
+if n > 0:
+    if n % 2 == 0 and n % 3 == 0:
+        print("Múltiplo de 2 e 3")
+    else:
+        print("Não atende")
+else:
+    print("Número inválido")
+
+
+ 22. Conversão para inteiro com validação
+valor = input("Digite um valor: ")
+
+try:
+    n = int(valor)
+    if n > 10:
+        print("Alto")
+    else:
+        print("Baixo")
+except:
+    print("Entrada inválida")
+
+
+ 23. Restos da divisão por 3 em ordem decrescente
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+c = int(input("Digite o terceiro número: "))
+
+restos = [a % 3, b % 3, c % 3]
+restos.sort(reverse=True)
+
+print("Restos em ordem decrescente:", restos)
+
+
+ 24. Intervalo de 1 a 100 + par ou ímpar
+n = int(input("Digite um número: "))
+
+if 1 <= n <= 100:
+    if n % 2 == 0:
+        print("Par no intervalo")
+    else:
+        print("Ímpar no intervalo")
+else:
+    print("Fora do intervalo")
+
+
+ 25. Tipo e conversão para float
+valor = input("Digite algo: ")
+print("Tipo:", type(valor))
+
+try:
+    num = float(valor)
+    print("Dividido por 2:", num / 2)
+except:
+    print("Não numérico")
