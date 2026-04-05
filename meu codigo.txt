@@ -244,3 +244,68 @@ try:
     print("Dividido por 2:", num / 2)
 except:
     print("Não numérico")
+ 26. Classificação por tamanho
+n = int(input("Digite um número inteiro: "))
+
+if n > 0:
+    if n < 10:
+        print("Pequeno")
+    elif n <= 100:
+        print("Médio")
+    else:
+        print("Grande")
+else:
+    print("Negativo ou zero")
+
+
+ 27. Soma se ambos positivos, senão produto
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+
+if a > 0 and b > 0:
+    print("Soma:", a + b)
+else:
+    print("Produto:", a * b)
+
+
+ 28. Tipo e interpretação numérica
+valor = input("Digite algo: ")
+print("Tipo:", type(valor))
+
+try:
+    if "." in valor:
+        num = float(valor)
+        print("Metade:", num / 2)
+    else:
+        num = int(valor)
+        print("Dobro:", num * 2)
+except:
+    print("Tipo inválido")
+
+
+ 29. Múltiplo de 5 com classificação
+n = int(input("Digite um número: "))
+
+if n % 5 == 0:
+    if n > 50:
+        print("Múltiplo alto")
+    else:
+        print("Múltiplo baixo")
+else:
+    print("Não é múltiplo")
+
+
+ 30. Conversão + classificação par/ímpar
+valor = input("Digite um valor: ")
+
+try:
+    n = int(valor)
+    if n % 2 == 0:
+        if n > 100:
+            print("Par alto")
+        else:
+            print("Par baixo")
+    else:
+        print("Ímpar")
+except:
+    print("Entrada inválida")
