@@ -20,6 +20,9 @@ horas = float(input("Digite as horas trabalhadas: ")) valor_hora = float(input("
 
 exercio praticar
 
+
+
+
 1. Positivo ou negativo
 n = int(input("Digite um número: "))
 if n >= 0:
