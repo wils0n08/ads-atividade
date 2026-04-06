@@ -70,12 +70,6 @@ else:
     print("Menor ou igual a 10")
 
 
- 8. Raiz se positivo
-n = float(input("Digite um número: "))
-if n > 0:
-    print("Raiz aproximada:", n ** 0.5)
-else:
-    print("Número inválido")
 
 
 
