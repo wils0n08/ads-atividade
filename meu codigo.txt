@@ -49,53 +49,6 @@ print("Tipo:", type(valor))
 
 
 
- 5. Triplo do número (lido como texto)
-texto = input("Digite um número: ")
-n = int(texto)
-print("Triplo:", n * 3)
-
-
- 6. Maior entre dois números
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
-if a > b:
-    print("Maior:", a)
-else:
-    print("Maior:", b)
-
-
- 7. Maior que 10 ou não
-n = float(input("Digite um valor: "))
-if n > 10:
-    print("Maior que 10")
-else:
-    print("Menor ou igual a 10")
-
-
- 8. Raiz se positivo
-n = float(input("Digite um número: "))
-if n > 0:
-    print("Raiz aproximada:", n ** 0.5)
-else:
-    print("Número inválido")
-
-
- 9. Metade do valor (float)
-valor = float(input("Digite um valor: "))
-print("Metade:", valor / 2)
-
-
- 10. Intervalo entre 0 e 10
-n = float(input("Digite um número: "))
-if 0 <= n <= 10:
-    print("Dentro do intervalo")
-else:
-    print("Fora do intervalo")
-
-
-
-
-
 
 
 
