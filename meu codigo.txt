@@ -39,35 +39,7 @@ print("Valor digitado:", valor)
 print("Tipo:", type(valor))
 
 
- 4. Par ou ímpar
-n = int(input("Digite um número: "))
-if n % 2 == 0:
-    print("Par")
-else:
-    print("Ímpar")
 
-
- 5. Triplo do número (lido como texto)
-texto = input("Digite um número: ")
-n = int(texto)
-print("Triplo:", n * 3)
-
-
- 6. Maior entre dois números
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
-if a > b:
-    print("Maior:", a)
-else:
-    print("Maior:", b)
-
-
- 7. Maior que 10 ou não
-n = float(input("Digite um valor: "))
-if n > 10:
-    print("Maior que 10")
-else:
-    print("Menor ou igual a 10")
 
 
 
